@@ -1,8 +1,10 @@
-# sagelga-datatype
+# datatype
 
 A collection of TypeScript data types for various APIs.
 
 ## Currently Supported APIs
+
+Last update: August 6, 2025
 
 -   Todoist
 -   Notion
@@ -10,13 +12,13 @@ A collection of TypeScript data types for various APIs.
 ## Installation
 
 ```bash
-npm install sagelga-datatype
+npm i @sagelga/datatype
 ```
 
 ## Usage
 
 ```typescript
-import { Todoist, Notion } from 'sagelga-datatype';
+import { Todoist, Notion } from '@sagelga/datatype';
 
 // Example usage for Todoist types
 const todoistTask: Todoist.Task = {

@@ -1,18 +1,26 @@
 {
     "name": "@sagelga/datatype",
-    "version": "1.0.0",
-    "description": "",
+    "version": "1.0.1",
+    "private": false,
+    "description": "A collection of TypeScript data types for various APIs.",
+    "keywords": [],
+    "homepage": "https://github.com/sagelga/datatype#readme",
+    "bugs": {
+        "url": "https://github.com/sagelga/datatype/issues"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/sagelga/datatype.git"
+    },
+    "license": "ISC",
+    "author": "Kunanon Srisuntiroj",
+    "type": "commonjs",
     "main": "dist/index.js",
     "types": "dist/index.d.ts",
     "scripts": {
         "build": "tsc"
     },
-    "keywords": [],
-    "author": "",
-    "license": "ISC",
-    "type": "commonjs",
     "devDependencies": {
         "typescript": "^5.9.2"
-    },
-    "private": false
+    }
 }
