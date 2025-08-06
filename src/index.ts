@@ -173,7 +173,8 @@ export namespace Notion {
             | PeopleProperty
             | RelationProperty
             | ButtonProperty
-            | FormulaProperty;
+            | FormulaProperty
+            | undefined;
     }
 
     export interface Database {
